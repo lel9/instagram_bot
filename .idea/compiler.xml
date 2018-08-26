@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="instagram_bot" target="1.7" />
+      <module name="instagram_bot" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
