@@ -130,6 +130,10 @@ public class BotManager {
                     !myFollowing.contains(currentProfile) &&
                     (followInCurrentHour < (int) ((double) this.followCountInHour * 1.2));
 
+            if (currentProfile.equals(login) || myFollowing.contains(currentProfile)) {
+                queueForProfiles.pop();
+            }
+
             if (needFollow) {
                 try {
                     queueForProfiles.pop();
