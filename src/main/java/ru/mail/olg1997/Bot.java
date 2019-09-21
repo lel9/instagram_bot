@@ -108,7 +108,7 @@ public class Bot {
 
     public List<String> getFollowing() {
         List<String> result = new ArrayList<String>();
-
+        String nextMaxId = null;
         long userId = userResult.getUser().getPk();
         try {
             while (true) {
